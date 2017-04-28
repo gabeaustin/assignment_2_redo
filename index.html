@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 2</title>
+<link rel="stylesheet" type="text/css" href="styles/assn2.css" />
+<script src="js/assn2.js"></script>
+</head>
+<body>
+	
+<section id="title">
+<h1>Assignment 2</h1>
+<hr>
+<select onchange="MenuChoice(value)" id="menu">
+<option value="None">Please select an option.</option>
+<option value="customerlist">Customer List</option>
+<option value="orderhistory">Customer Order History</option>
+<option value="about">About Me</option>
+</select>
+</section>
+<hr>
+
+<section id="customerlist">
+	<h2>Customer List</h2>
+	<hr>
+	<p id="listcustomers">Customer List</p>
+</section>
+
+<section id="orderhistory">
+<h2>Customer Order History</h2>
+<p id="orderhistory">Order History</p>
+
+	<input action="action" type="button" value="Back" onclick="Orders();" />
+
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<hr>
+<p id="aboutme">Gabe Austin. This app was created to display a list of customers and their order history.</p>
+</section>
+
+
+</body>
+</html>
