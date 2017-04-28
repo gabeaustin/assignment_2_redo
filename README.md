@@ -1,8 +1,8 @@
 # Assignment 2 Redo
 
-- [ ] Use the GitHub repository and project created for your previous assignment.
+- [x] Use the GitHub repository and project created for your previous assignment.
 - [ ] Modify your web page so that it has three <section> HTML content areas. Use the id attribute to create unique identifiers for each area.
-- [ ] In one section, create a page and the appropriate code to display the customer list returned by the getAllCustomers service on the web server. Display the list in a table with appropriate headings.  The service will return the Customer Name, Customer ID, and City.
+- [x] In one section, create a page and the appropriate code to display the customer list returned by the getAllCustomers service on the web server. Display the list in a table with appropriate headings.  The service will return the Customer Name, Customer ID, and City.
 - [ ] In another section, create a page and the appropriate code to display a customer’s order history. Create an input field to allow the user to enter the Customer ID for which to get the order history.  The service will return the Product Names and Quantities ordered.  The service name is getCustomerOrderHistory.  Use the GET method to send the Customer ID.
 - [ ] In the third section, create an About page for your app. Display your name and information about your app in this area.
 - [ ] Add a hyperlink to each entry in the customer list that invokes a function to display the items ordered by that customer. Create the function and code necessary to display the order list for a customer when the link for that customer is clicked.
